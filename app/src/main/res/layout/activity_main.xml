@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tinta"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="monospace"
+        android:text="@string/titulo"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/icon" />
+
+    <EditText
+        android:id="@+id/edtaltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint="ALTURA DA PAREDE"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/edtlargura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint="LARGURA DA PAREDE"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtnumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint="NÚMERO DE MÃOS"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtvalormedio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint="VALOR MÉDIO DA TINTA"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btncalcular"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/design_default_color_error"
+        android:backgroundTintMode="add"
+        android:text="@string/botao"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtresultado"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_marginTop="29dp"
+        android:background="@color/white"
+        android:fontFamily="monospace"
+        android:text="@string/resultado"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
